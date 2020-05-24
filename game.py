@@ -733,7 +733,7 @@ if pk=='1' or pk=='2':
         print"  7  |  8  |  9"
         print"     |     |"
         print"\n So basicly you have to enter the number where you want to put your 'cross' or 'O' in your turn."
-        print"\n2.Don't Complain For Any Disperency(if it occours) as It is just a trial version\n"
+        print"\n2.Do Complain For Any Disperency(if it occours) btw It is just a trial version\n"
         xt=raw_input("Press enter key to start---->")
         
         st="\nStarting....\n"
@@ -748,7 +748,6 @@ if pk=='1' or pk=='2':
             time.sleep(0.1)
         realmain()
 else:
-    print"You are not intrested in game f**k off...."
     c="\nAborting..."
     for i in c:
         print i,
